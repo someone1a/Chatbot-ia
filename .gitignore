@@ -1,3 +1,25 @@
+# Ignora archivos de entorno
 .env
-chatbot.db
-__pycache__
+
+# Ignora el entorno virtual (carpeta env o venv en cualquier nivel)
+env/
+venv/
+*/env/
+*/venv/
+
+# Ignora bases de datos sqlite en cualquier carpeta
+data/*.db
+*.db
+
+# Ignora archivos compilados de Python y cachés
+__pycache__/
+*.py[cod]
+
+# Ignora archivos de configuración de VSCode
+.vscode/
+
+# Ignora archivos de logs
+tmp/
+*.log
+
+# ...puedes agregar más reglas según tus necesidades...
